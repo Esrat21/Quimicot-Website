@@ -1,0 +1,117 @@
+#customModal{
+    position: absolute;
+    /* height: 100%;
+    width: 85%; */
+    top: 0px;
+    left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color:#fff;
+}
+
+#customModalAluno{
+    position: absolute;
+    /* height: 100%;
+    width: 85%; */
+    top: 0px;
+    left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color:#fff;
+}
+
+.exit {
+    /* display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 30px; */
+    /* position: fixed; */
+    /* left: 10vw; */
+}
+
+.exit span {
+    cursor: pointer;
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.contentModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+@keyframes animationFadeIn {
+    0.0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.fadeIN{
+    animation: animationFadeIn 1s ease-in;
+}
+
+@keyframes animationSeta{
+    0%{
+        left: 6.5vw;
+    }
+    50%{
+        left: 7vw;
+    }
+    100%{
+        left: 6.5vw;
+    }
+}
+
+.seta-esquerda:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    left: 8vw;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right: 10px solid blue; 
+    animation: animationSeta 1s linear infinite;
+}
+
+
+
+.contentModal .fase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    width: 30%;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 8px;
+    
+}
+
+.contentModal .fase button{
+    /* border-radius: 8px; */
+    border: 0px;
+    margin-top: 10px;
+    outline-style: none;
+
+}
+/* #exitModal{
+    width: 100%;
+} */
