@@ -1,3 +1,11 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuimiCot</title>
+    <link rel="stylesheet" href="/Quimicot-Website/public_html/src/css/bootstrap.min.css">
+</head>
+
 <header class="w-100 text-center text-light bg-dark pt-1 pb-1">
     <h3>Painel de Fase</h3>
 </header>
